@@ -1,0 +1,28 @@
+{
+  "name": "crude-server",
+  "version": "1.0.0",
+  "description": "ExpressJS TypeScript MongoDB CRUD API for products.",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsgo -p tsconfig.json",
+    "build:tsc": "tsc -p tsconfig.json",
+    "start": "node dist/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "@typescript/native-preview": "beta",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
